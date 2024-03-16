@@ -190,6 +190,26 @@ select:-webkit-autofill:focus {
   border-color: #5b6074;
 }
 
+/* LOGO  */
+.logo {
+  display: block;
+  text-decoration: none;
+}
+.logo__img {
+  display: block;
+  width: 149px;
+  height: 25px;
+  object-fit: contain;
+}
+
+.logo__img:hover {
+  opacity: 0.8;
+}
+
+.logo__img:active {
+  opacity: 0.6;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
