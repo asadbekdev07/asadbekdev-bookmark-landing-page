@@ -126,6 +126,70 @@ select:-webkit-autofill:focus {
   flex-grow: 1;
 }
 
+/* BUTTON  */
+.button {
+  display: inline-block;
+  padding: 8px 22px;
+  align-items: center;
+  border: 2px solid transparent;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.25px;
+  border-radius: 5px;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.button:active {
+  opacity: 0.6;
+}
+
+.button--red {
+  background-color: var(--red);
+  color: #ffffff;
+}
+
+.button--red:hover {
+  background-color: #ffffff;
+  color: var(--red);
+  border-color: var(--red);
+}
+
+.button--site-header {
+  padding: 10px 30px;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+
+.button--blue {
+  background-color: var(--blue);
+  color: #ffffff;
+}
+
+.button--blue:hover {
+  background-color: #ffffff;
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.button--block {
+  display: block;
+  width: 100%;
+}
+
+.button--grey {
+  background-color: #f7f7f7;
+  color: var(--text-color);
+}
+
+.button--grey:hover {
+  background-color: #ffffff;
+  color: var(--text-color);
+  border-color: #5b6074;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
