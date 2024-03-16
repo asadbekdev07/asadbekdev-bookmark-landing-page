@@ -1,5 +1,11 @@
 /* CUSTOM PROPS */
 :root {
+  --blue: #5267df;
+  --red: #fa5959;
+  --text-color: #242a45;
+  --text-color-75: rgba(36, 42, 69, 0.75);
+  --text-color-50: rgba(36, 42, 69, 0.50);
+
 }
 
 /* FONT-FACE  */
@@ -74,8 +80,9 @@ body {
   font-family: "Rubik", "Arial", sans-serif;
   font-size: 16px;
   line-height: 36px;
+  letter-spacing: 0.15px;
   background-color: #ffffff;
-  color: #222222;
+  color: var(--text-color-75);
 }
 
 img {
