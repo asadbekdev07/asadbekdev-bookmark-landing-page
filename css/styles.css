@@ -210,6 +210,58 @@ select:-webkit-autofill:focus {
   opacity: 0.6;
 }
 
+
+/* SITENAV  */
+.sitenav {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 1.5px;
+}
+.sitenav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.sitenav__item:not(:last-child) {
+  margin-right: 48px;
+}
+.sitenav__link {
+  display: block;
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.sitenav__link:hover {
+  color: var(--red);
+}
+
+.sitenav__link:hactive {
+  opacity: 0.6;
+}
+
+
+/* SITE-HEADER  */
+.site-header {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-transform: uppercase;
+}
+.site-header__container {
+  display: flex;
+  align-items: center;
+}
+
+.site-header__logo {
+  margin-right: auto;
+}
+
+.site-header__sitenav {
+  margin-right: 48px;
+}
+
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
