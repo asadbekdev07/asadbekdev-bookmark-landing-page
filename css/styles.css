@@ -488,10 +488,10 @@ select:-webkit-autofill:focus {
   content: "";
 }
 
-.extensions__item:nth-child(2) {
+.extensions__item:nth-child(3n + 2) {
   margin-top: 40px;
 }
-.extensions__item:nth-child(3) {
+.extensions__item:nth-child(3n) {
   margin-top: 80px;
 }
 
