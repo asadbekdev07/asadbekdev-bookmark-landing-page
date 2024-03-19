@@ -327,7 +327,7 @@ select:-webkit-autofill:focus {
 
 .feature-tab-panel {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -335,6 +335,17 @@ select:-webkit-autofill:focus {
   margin-right: 30px;
   object-fit: contain;
 }
+
+.feature-tab-panel__img--manager {
+  margin-right: 125px;
+}
+.feature-tab-panel__img--search {
+  margin-right: 115px;
+}
+.feature-tab-panel__img--sharing {
+  margin-right: 145px;
+}
+
 .feature-tab-panel__content {
   width: 100%;
   max-width: 445px;
