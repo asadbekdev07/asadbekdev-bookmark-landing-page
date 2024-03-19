@@ -245,7 +245,6 @@ select:-webkit-autofill:focus {
 /* SECTION  */
 .section {
   padding-top: 75px;
-  padding-bottom: 75px;
 }
 .section__info {
   width: 100%;
@@ -445,7 +444,79 @@ select:-webkit-autofill:focus {
   margin-bottom: 44px;
 }
 
+/* DOWNLOAD-EXTENSION  */
+.extensions__inner {
+  max-width: 910px;
+  margin: 0 auto;
+}
 
+.extensions__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: -35px;
+  list-style: none;
+}
+.extensions__item {
+  width: 100%;
+  max-width: 280px;
+  margin-left: 35px;
+  border-radius: 15px;
+}
+
+.extension {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 24px 24px;
+  box-shadow: 0px 10px 20px -5px rgba(73, 93, 207, 0.2);
+  text-align: center;
+}
+
+.extension::after {
+  position: absolute;
+  left: 0;
+  bottom: 96px;
+  width: 100%;
+  height: 4px;
+  background-image: url("../img/circled-divider.svg");
+  background-position: center center;
+  content: "";
+}
+
+.extensions__item:nth-child(2) {
+  margin-top: 40px;
+}
+.extensions__item:nth-child(3) {
+  margin-top: 80px;
+}
+
+.extension__img {
+  margin-bottom: 32px;
+  width: 105px;
+  height: 100px;
+  object-fit: contain;
+}
+.extension__title {
+  margin: 0;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.25px;
+  color: var(--text-color);
+}
+.extension__browser-version {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 15px;
+  line-height: 28px;
+  color: var(--text-color-50);
+}
 
 
 
