@@ -424,9 +424,9 @@ select:-webkit-autofill:focus {
   color: var(--blue);
 }
 
-.accordion__item--open .accordion__item-togler-icon {
+.accordion__item--open .accordion__item-toggler-icon {
   transform: rotate(180deg);
-  color: var(--text-color);
+  color: var(--red);
 }
 
 .accordion__item-content {
