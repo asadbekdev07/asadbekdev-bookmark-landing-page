@@ -449,6 +449,10 @@ select:-webkit-autofill:focus {
   margin: 0;
 }
 
+.accordion__item-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
 /* SOCIALS  */
 .socials {
   display: flex;
@@ -472,8 +476,7 @@ select:-webkit-autofill:focus {
 .socials__link:active {
   opacity: 0.6;
 }
-.socials__icon {
-}
+
 
 /* SITE-HEADER  */
 .site-header {
